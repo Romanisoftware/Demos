@@ -6,9 +6,9 @@ public class Demo{
 
 public int edd = 0,holder,bob,conm,id,opp;
 public Demo{
-Jframe app = new Jframe ("Demo");
+JFrame app = new JFrame ("Demo");
 JTextfeld label = new JTextfeld ("You collected"+edd+"dollars");
-Jbutton button = new Jbutton ("Earn money");
+JButton button = new JButton ("Earn money");
 button.addActionListener(new ActionListener(){  
 public void actionPerformed(ActionEvent e){ 
               edd += 1; 
